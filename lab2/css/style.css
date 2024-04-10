@@ -1,3 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+}
+
+.titleBar {
+  background-color: blue;
+  color: white;
+  transition: background-color 500ms ease-in;
+  margin: 0px;
+  padding: 8px 10px;
+}
+
+.titleBar:hover {
+  background-color: palevioletred;
+}
+
 .story-content {
   font-size: 40px;
 }
